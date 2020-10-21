@@ -380,9 +380,9 @@ a img{
   padding: 80px 16px 0 16px;
 }
 
-  .android-customized-section-text p {
-    padding-top: 16px;
-  }
+.android-customized-section-text p {
+  padding-top: 16px;
+}
 
 .android-customized-section-image {
   background: url('images/devices.jpg') center top no-repeat;
@@ -514,9 +514,9 @@ a img{
     width: 100%;
   }
 
-  .android-be-together-section {
-    height: 350px;
-  }
+  /* .android-be-together-section {
+    height: 750px;
+  } */
 
   .android-slogan {
     font-size: 26px;
@@ -530,10 +530,10 @@ a img{
     padding-top: 8px;
   }
 
-  .android-create-character {
+  /* .android-create-character {
     padding-top: 200px;
     font-size: 16px;
-  }
+  } */
 
   .android-create-character img {
     height: 12px;
@@ -555,11 +555,6 @@ a img{
   
 }
 
-
-/* Começarás a Bagunça */
-
-/* external css: flickity.css */
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -567,49 +562,3 @@ a img{
 
 body { font-family: sans-serif; }
 
-.gallery {
-  /* background:white; */
-}
-
-.gallery-cell-0 {
-  width: 66%;
-  height: 600px;
-  margin-right: 10px;
-  background: #f3f3f3ff;
-  counter-increment: gallery-cell;
-}
-
-.gallery-cell-1 {
-  width: 66%;
-  height: 600px;
-  margin-right: 10px;
-  background: #f3f3f3ff;
-  counter-increment: gallery-cell;
-}
-
-.gallery-cell-2 {
-  width: 66%;
-  height: 600px;
-  margin-right: 10px;
-  background: #f3f3f3ff;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  /* content: counter(gallery-cell); */
-  line-height: 600px;
-  font-size: 80px;
-  color: white;
-}
-
-.centered-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
